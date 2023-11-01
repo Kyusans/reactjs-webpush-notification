@@ -1,5 +1,7 @@
 // eslint-disable-next-line no-restricted-globals
 self.addEventListener("push", (event) =>{
+
+  //{"title": "hello", "body":"hello body"}
   const notification = event.data.json();
 
   // eslint-disable-next-line no-restricted-globals
